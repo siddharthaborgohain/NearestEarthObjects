@@ -1,0 +1,22 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> NEAR EARTH OBJECT HAZARDOUS DETECTION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> est_diameter_min :  <input type="text", name='est_diameter_min', placeholder="est_diameter_min"> <br><br>
+            est_diameter_max :  <input type="text", name='est_diameter_max', placeholder="est_diameter_max"> <br><br>
+            relative_velocity :  <input type="text", name='relative_velocity', placeholder="relative_velocity"> <br><br>
+            est_diameter_diff :  <input type="text", name='est_diameter_diff', placeholder="est_diameter_diff"> <br><br>
+            miss_distance :  <input type="text", name='miss_distance', placeholder="asasa"> <br><br>
+            absolute_magnitude : <input type="text", name='absolute_magnitude', placeholder="absolute_magnitude"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='static\neo.jpg' alt="NASA">
+    </center>
+
+    </body>
+</html>
